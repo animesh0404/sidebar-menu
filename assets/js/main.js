@@ -1,12 +1,14 @@
 //SHOW MENU
-const showMenu = (toggleId, navbarId) => {
+const showMenu = (toggleId, navbarId, bodyId) => {
   const toggle = document.getElementById(toggleId),
-    navbar = document.getElementById(navbarId);
+    navbar = document.getElementById(navbarId),
+    bodypadding = document.getElementById(bodyId);
 
   if (toggle && navbar) {
     toggle.addEventListener("click", () => {
       navbar.classList.toggle("show");
+      bodypadding.classList.toggle("expander");
     });
   }
 };
-showMenu("nav-toggle", "navbar");
+showMenu("nav-toggle", "navbar", "body");
