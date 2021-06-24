@@ -135,6 +135,11 @@ a {
   width: $nav-width + 112px;
 }
 
+// Rotate toggle icons
+.rotate {
+  transform: rotate(180deg);
+  transition: 0.6s;
+}
 // Add padding to body
 .expander {
   padding: 1rem 0 0 12rem;

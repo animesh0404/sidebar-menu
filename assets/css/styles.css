@@ -127,6 +127,11 @@ a {
   width: 168px;
 }
 
+.rotate {
+  transform: rotate(180deg);
+  transition: 0.6s;
+}
+
 .expander {
   padding: 1rem 0 0 12rem;
 }
