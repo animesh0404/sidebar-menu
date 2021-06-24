@@ -132,6 +132,11 @@ a {
   transition: 0.6s;
 }
 
+.active {
+  background-color: var(--second-color);
+  color: var(--first-color);
+}
+
 .expander {
   padding: 1rem 0 0 12rem;
 }
