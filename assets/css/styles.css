@@ -58,7 +58,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 168px;
+  width: 56px;
   height: 100vh;
   background-color: var(--first-color);
   padding: 1.25rem 0.5rem 2rem;
@@ -79,7 +79,7 @@ a {
   margin-bottom: 2rem;
   padding: 0 0.5rem;
 }
-.nav__logo__icon {
+.nav__logo-icon {
   margin-right: 1.2rem;
 }
 .nav__logo-text {
@@ -101,6 +101,26 @@ a {
   justify-content: center;
   cursor: pointer;
   transition: 0.5s;
+}
+.nav__link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+  transition: 0.3s;
+}
+.nav__link:hover {
+  background-color: var(--second-color);
+  color: var(--first-color);
+}
+.nav__icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.nav__text {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
