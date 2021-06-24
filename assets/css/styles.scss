@@ -57,3 +57,16 @@ li {
 a {
   text-decoration: none;
 }
+
+// NAV
+.l-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $nav-width;
+  height: 100vh;
+  background-color: var(--first-color);
+  padding: 1.25rem 0.5rem 2rem;
+  transition: 0.5s;
+  z-index: var(--z-fixed);
+}
